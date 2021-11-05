@@ -88,5 +88,110 @@
     <p>Tema <a href="https://rawart.com.br/" target="_blank">RAWART</a></p>
     </div>
     </div>
-      
     </div>
+    body {margin:0}
+
+.cidademain {
+  
+    position: absolute;
+    bottom: 0;
+    background: url(https://cdn.shopify.com/s/files/1/0443/8573/0725/t/3/assets/pf-cdcffe92--footerbg?v=1617251883) no-repeat scroll center 0;
+    width: 100%;
+    height: 266px;
+    overflow: hidden;
+  
+  }
+
+  .cidade {
+  
+    background: url(https://cdn.shopify.com/s/files/1/0443/8573/0725/t/3/assets/pf-cffe92ba--volks?v=1617252201) no-repeat;
+    width: 252px;
+    height: 113px;
+    left: 0%;
+    bottom: 0;
+    background-size: 300px;
+    position: absolute;
+    animation: cidade 10s linear infinite;
+	z-index: 100;
+  
+  }
+  
+  @keyframes cidade {
+  0% {
+    left: 0%;
+    }
+
+  100%{
+	left: 100%;
+  }
+}
+
+  .cidade2 {
+  
+    background: url(https://cdn.shopify.com/s/files/1/0443/8573/0725/t/3/assets/pf-fe92ba09--cyclist?v=1617252215) no-repeat;
+    width: 250px;
+    height: 132px;
+    left: 0%;
+    bottom: 0;
+    background-size: 100px;
+    animation: cidade2 15s linear infinite;
+    position: absolute;
+  
+  }
+  
+  @keyframes cidade2 {
+  0% {
+    left: 0%;
+    }
+
+  100%{
+	left: 100%;
+  }
+}
+  
+   .cidadeinfo {
+  
+    color: #b3b3d0;
+    width: 1150px;
+    margin: 0px auto;
+    padding: 228px 0 0 0;
+    display: flex;
+  
+  }
+  
+   .cidadeinforight {
+  
+    position: absolute;
+    text-align: right;
+    width: inherit;
+  
+  }
+  
+    .cidadeinforight p, .cidadeinforight a {
+  
+    color: #b3b3d0;
+  
+  }
+  
+    @media (max-width: 768px) {
+	
+	.cidadeinforight {
+	  
+    position: relative;
+    text-align: right;
+    width: auto;
+    padding: 0 8px;
+	  
+  }
+	
+	.cidadeinfo {
+	  
+    position: relative;
+    width: inherit;
+    max-width: fit-content;
+    font-size: 12px;
+    z-index: 100;
+	  
+     }	
+	
+  }
